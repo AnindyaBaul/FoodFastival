@@ -55,8 +55,8 @@ function loadRecipe(category) {
 
 function displayMeals(meals) {
     if(meals==null){
-        cat.innerHTML=`<div class="d-flex justify-content-center align-items-center" "> <img style="  border-radius: 10px;
-        box-shadow: 0 0 15px; class="mx-auto" src="./image/01c4da1a-ae29-4f04-ba6e-5b09a9a48f4d-transformed.jpg"> </div>`   
+        cat.innerHTML=`<div class="d-flex justify-content-center align-items-center no-res" "> <img style="  border-radius: 10px;
+        box-shadow: 0 0 15px; class="mx-auto " src="./image/01c4da1a-ae29-4f04-ba6e-5b09a9a48f4d-transformed.jpg"> </div>`   
     }
 
     else{

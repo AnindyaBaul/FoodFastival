@@ -115,4 +115,10 @@ body{
 #main-cont{
     flex-direction: column!important;
 }
+.no-res{
+    width: 100%;
+}
+.no-res img{
+    width: 100%;
+}
 }
