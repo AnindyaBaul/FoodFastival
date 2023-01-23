@@ -62,7 +62,7 @@ function displayMeals(meals) {
     else{
         
         // cat.style.height="auto"
-        console.log(meals)
+        // console.log(meals)
         bgImg.innerHTML = ""
         for (const meal of meals) {
             const { idMeal, strMeal, strMealThumb } = meal
@@ -84,7 +84,7 @@ function loadRecipeDetails(idMeal) {
     fetch(url)
         .then(res => res.json())
         .then(data => recipeDitels(data.meals[0]))
-    bgImg.innerHTML = "F"
+    bgImg.innerHTML = ""
 }
 
 function recipeDitels(recipeALL) {
