@@ -11,13 +11,15 @@ body {
     height: 300px;
     aspect-ratio: 1;
     /* border: 1px solid gray; */
+    width: 100%;
 }
 
 input {
     height: 40px;
     border-radius: 10px;
     border: 0;
-    padding: 10px;
+    padding: 0;
+    padding-left: 10px;
 }
 
 input:focus {
@@ -90,7 +92,8 @@ footer {
     width: 100%;
     min-height: 535px;
     /* border: 1px solid red; */
-    background-color: rgba(240, 248, 255, 0.788);
+    /*  */
+    background: linear-gradient(180deg, white, transparent);;
     display: none;
     /* visibility: hidden; */
 }
@@ -123,7 +126,9 @@ footer {
         background-size: 100%;
         /* background-position: center; */
     }
-
+    #main{
+        background-color: rgba(240, 248, 255, 0.788);
+    }
     #main-cont {
         flex-direction: column !important;
     }
